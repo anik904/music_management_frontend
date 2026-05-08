@@ -145,7 +145,7 @@ function Albums({ isAuthenticated }) {
          }}
          style={{
            padding: '10px 20px',
-           backgroundColor: showForm ? '#6c757d' : '#28a745',
+           backgroundColor: showForm ? '#6c757d' : '#007bff',
            color: 'white',
            border: 'none',
            borderRadius: '6px',
