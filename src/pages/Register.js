@@ -10,7 +10,7 @@ const styles = `
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0f0e0c;
+    background-color: #ffffff;
     font-family: 'DM Sans', sans-serif;
     padding: 24px;
   }
@@ -41,13 +41,13 @@ const styles = `
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: rgba(214, 176, 102, 0.1);
-    border: 1px solid rgba(214, 176, 102, 0.25);
+    background: rgba(102, 149, 214, 0.1);
+    border: 1px solid rgba(102, 123, 214, 0.25);
     border-radius: 20px;
     padding: 5px 12px;
     font-size: 11px;
     font-weight: 500;
-    color: #d6b066;
+    color: #007bff;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     margin-bottom: 24px;
@@ -56,7 +56,7 @@ const styles = `
   .login-badge-dot {
     width: 6px;
     height: 6px;
-    background: #d6b066;
+    background: #007bff;
     border-radius: 50%;
     animation: pulse 2s infinite;
   }
@@ -116,7 +116,7 @@ const styles = `
   }
 
   .field-input:focus {
-    border-color: rgba(214, 176, 102, 0.5);
+    border-color: rgba(102, 169, 214, 0.5);
     box-shadow: 0 0 0 3px rgba(214, 176, 102, 0.08);
   }
 
@@ -147,7 +147,7 @@ const styles = `
     width: 100%;
     padding: 14px;
     margin-top: 28px;
-    background: #d6b066;
+    background: #007bff;
     color: #0f0e0c;
     border: none;
     border-radius: 10px;
@@ -160,7 +160,7 @@ const styles = `
   }
 
   .submit-btn:hover:not(:disabled) {
-    background: #e0be78;
+    background: #007bff;
   }
 
   .submit-btn:active:not(:disabled) {
@@ -245,14 +245,14 @@ const styles = `
   }
 
   .register-cta a {
-    color: #d6b066;
+    color: #007bff;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.2s;
   }
 
   .register-cta a:hover {
-    color: #e0be78;
+    color: #007bff;
   }
 
   .login-card-enter {
